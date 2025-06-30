@@ -5,7 +5,10 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",  // Ensures all your React files are scanned
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+'primary':"#5f6FFF"
+    }},
   },
   plugins: [],
 }
